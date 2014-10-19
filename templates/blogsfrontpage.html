@@ -1,0 +1,24 @@
+<a  href="http://www.jsonblog-plususerreg.appspot.com/newpost"> CLICK HERE TO CREATE A BLOG  </a>
+<br>
+
+<hr>
+
+{% for blog in blogs %}
+
+<div class="blog">
+	
+    <div class="blog-subject"><b>{{blog.subject}}</b></div>
+
+	    <pre class="blog-body">{{blog.content}}</pre>
+
+	</div>
+
+{% endfor %}
+
+
+</body>
+
+</html>
+
+
+

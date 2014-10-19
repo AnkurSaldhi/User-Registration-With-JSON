@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <title>USER REGISTRATION</title>
+  </head>
+
+<body>
+       <h1>REGISTRATION PAGE</h1>
+<form method="post">
+
+<label>
+  name
+    
+
+<input name="username" value={{useragain}}>
+
+
+<span style="color: red">{{usererror}}</span>
+</label>
+
+<br>
+
+<br>
+
+
+
+
+<label>
+
+password
+
+<input type="password" name="password">
+
+<span style="color: red">{{passerror}}</span>
+
+</label>
+
+<br>
+
+<br>
+
+
+
+
+<label>
+
+confirm password
+<input type="password" name="verify">
+
+<span style="color: red">{{verifyerror}}</span>
+
+</label>
+
+<br>
+
+<br>
+
+
+<label>
+
+
+
+email (optional)
+<input name="email" value={{againemail}}>
+
+<span style="color: red">{{emailerror}}</span>
+
+</label>
+
+<br>
+
+<br>
+
+
+
+<input type="submit">
+
+</form>
+</body>
+</html>

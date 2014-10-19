@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+
+
+<html>
+
+  <head>
+       
+ <title>/blog/</title>
+ 
+  </head>
+
+
+
+<body>
+ 
+   <h1>BLOG</h1>
+
+
+     <form method="post">
+
+         <label>
+  
+  <div>subject</div>
+
+<input type="text" name="subject" value={{subject}}>
+
+          </label>
+
+
+         <label>
+    
+              <div>content</div>
+
+<textarea name="content" style="height:150px;width=400px;">{{content}}</textarea>
+
+         </label>
+
+
+        <div style="color:  red">{{error}}</div>
+
+
+        <input type="submit">
+ 
+   </form>
+

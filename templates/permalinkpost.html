@@ -1,0 +1,15 @@
+<a  href="http://www.jsonblog-plususerreg.appspot.com/blog"> CLICK HERE TO GO TO FRONT PAGE OF THE BLOG  </a>
+<hr>
+<br>
+{%  if topblog %}
+
+<div class="topblog">
+	
+    <div class="topblog-subject"><b>{{topblog.subject}}</b></div>
+
+		<hr>
+	    <pre class="topblog-body">{{topblog.content}}</pre>
+
+	</div>
+
+{% endif %}
